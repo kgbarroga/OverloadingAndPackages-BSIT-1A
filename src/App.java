@@ -53,5 +53,12 @@ public class App {
          */
         System.out.println("Computing two numbers 10 and 20 = " + App.computeSum(10, 20));
         System.out.println("Computing three numbers 10 and 20 and 30 = " + App.computeSum(10, 20, 30));
+
+        /**
+         * Constructor from Pen Class
+         */
+
+        Pen p1 = new Pen("G-tech Pilot");
+        Pen p2 = new Pen(1);
     }
 }
